@@ -1,6 +1,6 @@
 ---
 name: Net-OBEX-Response
-version: 0.001
+version: 0.002
 author:
   - 'Zoffix Znet <zoffix@cpan.org>'
 abstract: interpret OBEX protocol response packets
@@ -9,13 +9,14 @@ resources:
   license: http://dev.perl.org/licenses/
 requires:
   Carp: 1.04
+  Class::Data::Accessor: 0.04001
   Net::OBEX::Packet::Headers: 0.002
 build_requires:
   Test::More: 0
 provides:
   Net::OBEX::Response:
     file: lib/Net/OBEX/Response.pm
-    version: 0.001
+    version: 0.002
   Net::OBEX::Response::Connect:
     file: lib/Net/OBEX/Response/Connect.pm
     version: 0.001

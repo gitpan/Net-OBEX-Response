@@ -10,6 +10,7 @@ WriteMakefile
           'PREREQ_PM' => {
                            'Test::More' => 0,
                            'Net::OBEX::Packet::Headers' => '0.002',
+                           'Class::Data::Accessor' => '0.04001',
                            'Carp' => '1.04'
                          }
         )

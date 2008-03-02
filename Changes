@@ -1,5 +1,8 @@
 Revision history for Net-OBEX-Response
 
-0.01    Mar 1, 2008
+0.002    Mar 2, 2008
+        fixed incorrect prerequisites
+
+0.001    Mar 1, 2008
         First version, released on an unsuspecting world.
 

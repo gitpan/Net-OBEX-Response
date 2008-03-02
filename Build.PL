@@ -13,6 +13,7 @@ my $builder = Module::Build->new(
     requires => {
         'Carp'                       => 1.04,
         'Net::OBEX::Packet::Headers' => '0.002',
+        'Class::Data::Accessor' => 0.04001,
     },
     add_to_cleanup      => [ 'Net-OBEX-Response-*' ],
     create_makefile_pl => 'traditional',
