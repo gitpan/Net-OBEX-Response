@@ -5,9 +5,12 @@ package Net::OBEX::Response::Generic;
 use strict;
 use warnings;
 
+our $VERSION = '0.001';
+
 use Carp;
 use base 'Class::Data::Accessor';
 __PACKAGE__->mk_classaccessors qw( headers_length  packet  info );
+
 
 my %Response_meaning_of_code = _make_response_codes();
 

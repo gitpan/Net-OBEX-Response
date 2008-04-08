@@ -1,6 +1,6 @@
 ---
 name: Net-OBEX-Response
-version: 0.002
+version: 0.003
 author:
   - 'Zoffix Znet <zoffix@cpan.org>'
 abstract: interpret OBEX protocol response packets
@@ -16,12 +16,13 @@ build_requires:
 provides:
   Net::OBEX::Response:
     file: lib/Net/OBEX/Response.pm
-    version: 0.002
+    version: 0.003
   Net::OBEX::Response::Connect:
     file: lib/Net/OBEX/Response/Connect.pm
     version: 0.001
   Net::OBEX::Response::Generic:
     file: lib/Net/OBEX/Response/Generic.pm
+    version: 0.001
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

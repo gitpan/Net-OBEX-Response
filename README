@@ -1,5 +1,7 @@
 Net-OBEX-Response
 
+The module provides means to interpret raw OBEX protocol responses.
+
 INSTALLATION
 
 To install this module, run the following commands:

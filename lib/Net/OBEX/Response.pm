@@ -3,7 +3,7 @@ package Net::OBEX::Response;
 use warnings;
 use strict;
 
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 use Net::OBEX::Response::Generic;
 use Net::OBEX::Response::Connect;
