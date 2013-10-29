@@ -3,14 +3,14 @@ package Net::OBEX::Response;
 use warnings;
 use strict;
 
-our $VERSION = '0.003';
+our $VERSION = '0.004';
 
 use Net::OBEX::Response::Generic;
 use Net::OBEX::Response::Connect;
 use Net::OBEX::Packet::Headers;
 
 use base 'Class::Data::Accessor';
-__PACKAGE__->mk_classaccessors qw(obj_connect  obj_generic  obj_head  error );
+__PACKAGE__->mk_classaccessors( qw(obj_connect  obj_generic  obj_head  error ) );
 
 sub new {
     my $class = shift;
@@ -62,6 +62,8 @@ sub parse_sock {
 1;
 
 __END__
+
+=encoding utf8
 
 =head1 NAME
 

@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use lib '../lib';
+use lib qw(../lib  lib);
 
 use Net::OBEX::Response;
 
@@ -14,7 +14,3 @@ my $res = Net::OBEX::Response->new;
 
 my $connect_response_ref = $res->parse( $connect_raw, 1 );
 my $response_ref = $res->parse( $raw );
-
-### use Data::Dumper;
-### print Dumper( [ $connect_response_ref, $response_ref ] );
-

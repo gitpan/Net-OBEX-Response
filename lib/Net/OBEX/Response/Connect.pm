@@ -3,7 +3,7 @@ package Net::OBEX::Response::Connect;
 use strict;
 use warnings;
 
-our $VERSION = '0.001';
+our $VERSION = '0.004';
 
 use Carp;
 use base 'Net::OBEX::Response::Generic';
@@ -32,6 +32,7 @@ sub parse_info {
 
 __END__
 
+=encoding utf8
 
 =head1 NAME
 

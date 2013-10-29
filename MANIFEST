@@ -12,3 +12,4 @@ t/kwalitee.t
 examples/parse.pl
 Makefile.PL
 META.yml
+META.json
